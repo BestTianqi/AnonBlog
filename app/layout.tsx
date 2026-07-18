@@ -60,7 +60,7 @@ export default function RootLayout({
           }}
         />
       </head>
-      <body className="min-h-screen flex flex-col bg-background text-foreground antialiased">
+      <body className="min-h-screen flex flex-col text-foreground antialiased">
         <ThemeProvider>
           <SiteHeader />
           <main className="flex-1 py-8 sm:py-12">{children}</main>

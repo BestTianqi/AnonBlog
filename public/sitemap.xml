@@ -3,18 +3,9 @@
   <url><loc>https://besttianqi.github.io/AnonBlog</loc><changefreq>daily</changefreq><priority>1.0</priority></url>
   <url><loc>https://besttianqi.github.io/AnonBlog/tags</loc><changefreq>weekly</changefreq><priority>0.6</priority></url>
   <url><loc>https://besttianqi.github.io/AnonBlog/search</loc><changefreq>monthly</changefreq><priority>0.2</priority></url>
-  <url><loc>https://besttianqi.github.io/AnonBlog/posts/hello-world</loc><lastmod>2026-07-15</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
-  <url><loc>https://besttianqi.github.io/AnonBlog/posts/typescript-patterns</loc><lastmod>2026-07-10</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
-  <url><loc>https://besttianqi.github.io/AnonBlog/posts/nextjs-app-router</loc><lastmod>2026-07-01</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
-  <url><loc>https://besttianqi.github.io/AnonBlog/posts/git-workflow</loc><lastmod>2026-06-20</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
-  <url><loc>https://besttianqi.github.io/AnonBlog/tags/general</loc><changefreq>weekly</changefreq><priority>0.4</priority></url>
+  <url><loc>https://besttianqi.github.io/AnonBlog/posts/Hello Happy World</loc><lastmod>2026-07-15</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://besttianqi.github.io/AnonBlog/posts/自我介绍</loc><lastmod>2026-07-14</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
   <url><loc>https://besttianqi.github.io/AnonBlog/tags/life</loc><changefreq>weekly</changefreq><priority>0.4</priority></url>
-  <url><loc>https://besttianqi.github.io/AnonBlog/tags/typescript</loc><changefreq>weekly</changefreq><priority>0.4</priority></url>
-  <url><loc>https://besttianqi.github.io/AnonBlog/tags/patterns</loc><changefreq>weekly</changefreq><priority>0.4</priority></url>
-  <url><loc>https://besttianqi.github.io/AnonBlog/tags/nextjs</loc><changefreq>weekly</changefreq><priority>0.4</priority></url>
-  <url><loc>https://besttianqi.github.io/AnonBlog/tags/react</loc><changefreq>weekly</changefreq><priority>0.4</priority></url>
-  <url><loc>https://besttianqi.github.io/AnonBlog/tags/web</loc><changefreq>weekly</changefreq><priority>0.4</priority></url>
-  <url><loc>https://besttianqi.github.io/AnonBlog/tags/git</loc><changefreq>weekly</changefreq><priority>0.4</priority></url>
-  <url><loc>https://besttianqi.github.io/AnonBlog/tags/devops</loc><changefreq>weekly</changefreq><priority>0.4</priority></url>
-  <url><loc>https://besttianqi.github.io/AnonBlog/tags/productivity</loc><changefreq>weekly</changefreq><priority>0.4</priority></url>
+  <url><loc>https://besttianqi.github.io/AnonBlog/tags/general</loc><changefreq>weekly</changefreq><priority>0.4</priority></url>
+  <url><loc>https://besttianqi.github.io/AnonBlog/tags/introduction</loc><changefreq>weekly</changefreq><priority>0.4</priority></url>
 </urlset>

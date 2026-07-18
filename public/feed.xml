@@ -4,48 +4,28 @@
         <title>Best_Tianqi's Blog</title>
         <link>https://besttianqi.github.io/AnonBlog</link>
         <description>Personal blog about web development, TypeScript, React, and more.</description>
-        <lastBuildDate>Sat, 18 Jul 2026 16:46:41 GMT</lastBuildDate>
+        <lastBuildDate>Sat, 18 Jul 2026 17:34:31 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <language>zh-CN</language>
         <copyright>All rights reserved 2026</copyright>
         <item>
-            <title><![CDATA[Hello World — 我的第一篇博客]]></title>
-            <link>https://besttianqi.github.io/AnonBlog/posts/hello-world</link>
-            <guid isPermaLink="false">https://besttianqi.github.io/AnonBlog/posts/hello-world</guid>
+            <title><![CDATA[Hello Happy World — 爱音的第一篇博客]]></title>
+            <link>https://besttianqi.github.io/AnonBlog/posts/Hello%20Happy%20World</link>
+            <guid isPermaLink="false">https://besttianqi.github.io/AnonBlog/posts/Hello Happy World</guid>
             <pubDate>Wed, 15 Jul 2026 00:00:00 GMT</pubDate>
-            <description><![CDATA[欢迎来到我的个人博客！这里记录了我的技术思考和学习心得。]]></description>
+            <description><![CDATA[欢迎来到我的个人博客！]]></description>
             <category>general</category>
             <category>life</category>
         </item>
         <item>
-            <title><![CDATA[TypeScript 实用模式与技巧]]></title>
-            <link>https://besttianqi.github.io/AnonBlog/posts/typescript-patterns</link>
-            <guid isPermaLink="false">https://besttianqi.github.io/AnonBlog/posts/typescript-patterns</guid>
-            <pubDate>Fri, 10 Jul 2026 00:00:00 GMT</pubDate>
-            <description><![CDATA[总结一些在日常开发中非常实用的 TypeScript 模式和技巧。]]></description>
-            <category>typescript</category>
-            <category>patterns</category>
-        </item>
-        <item>
-            <title><![CDATA[Next.js App Router 深度解析]]></title>
-            <link>https://besttianqi.github.io/AnonBlog/posts/nextjs-app-router</link>
-            <guid isPermaLink="false">https://besttianqi.github.io/AnonBlog/posts/nextjs-app-router</guid>
-            <pubDate>Wed, 01 Jul 2026 00:00:00 GMT</pubDate>
-            <description><![CDATA[深入了解 Next.js App Router 的核心概念、渲染策略和最佳实践。]]></description>
-            <category>nextjs</category>
-            <category>react</category>
-            <category>web</category>
-        </item>
-        <item>
-            <title><![CDATA[高效的 Git 工作流程]]></title>
-            <link>https://besttianqi.github.io/AnonBlog/posts/git-workflow</link>
-            <guid isPermaLink="false">https://besttianqi.github.io/AnonBlog/posts/git-workflow</guid>
-            <pubDate>Sat, 20 Jun 2026 00:00:00 GMT</pubDate>
-            <description><![CDATA[介绍一个经过实践验证的高效 Git 分支管理和提交工作流。]]></description>
-            <category>git</category>
-            <category>devops</category>
-            <category>productivity</category>
+            <title><![CDATA[关于我 — 千早愛音]]></title>
+            <link>https://besttianqi.github.io/AnonBlog/posts/%E8%87%AA%E6%88%91%E4%BB%8B%E7%BB%8D</link>
+            <guid isPermaLink="false">https://besttianqi.github.io/AnonBlog/posts/自我介绍</guid>
+            <pubDate>Tue, 14 Jul 2026 00:00:00 GMT</pubDate>
+            <description><![CDATA[はじめまして、千早愛音と申します。这里是关于我的一切。]]></description>
+            <category>introduction</category>
+            <category>life</category>
         </item>
     </channel>
 </rss>
