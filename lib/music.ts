@@ -1,21 +1,20 @@
 export interface Song {
   title: string;
   file: string;
-  duration?: string;
 }
 
-export const PLAYLIST: Song[] = [
-  { title: "迷星叫", file: "/AnonBlog/music/mayoiuta.mp3" },
-  { title: "壱雫空", file: "/AnonBlog/music/hitoshizuku.mp3" },
-  { title: "碧天伴走", file: "/AnonBlog/music/hekitenbansou.mp3" },
-  { title: "影色舞", file: "/AnonBlog/music/kageiro_mai.mp3" },
-  { title: "歌いましょう鳴らしましょう", file: "/AnonBlog/music/utaimashou.mp3" },
-  { title: "潜在表明", file: "/AnonBlog/music/senzai_hyoumei.mp3" },
-  { title: "音一会", file: "/AnonBlog/music/otoichie.mp3" },
-  { title: "春日影 (MyGO!!!!! ver.)", file: "/AnonBlog/music/haruhikage.mp3" },
-  { title: "詩超絆", file: "/AnonBlog/music/utakotoba.mp3" },
-  { title: "迷路日々", file: "/AnonBlog/music/meirohibi.mp3" },
-  { title: "無路矢", file: "/AnonBlog/music/muroya.mp3" },
-  { title: "名無声", file: "/AnonBlog/music/nanashigoe.mp3" },
-  { title: "栞", file: "/AnonBlog/music/shiori.mp3" },
+const BASE = "/AnonBlog/music";
+
+const files = [
+  "迷星叫.mp3",
+  "壱雫空.mp3",
+  "碧天伴走.mp3",
+  "影色舞.mp3",
+  "春日影 (MyGO!!!!! ver.).mp3",
+  "栞.mp3",
 ];
+
+export const PLAYLIST: Song[] = files.map((f) => ({
+  title: f.replace(".mp3", ""),
+  file: `${BASE}/${encodeURIComponent(f)}`,
+}));
