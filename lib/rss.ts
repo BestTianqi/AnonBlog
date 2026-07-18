@@ -14,7 +14,7 @@ export function generateRssFeed(): string {
     favicon: `${SITE_URL}/favicon.ico`,
     copyright: `All rights reserved ${new Date().getFullYear()}`,
     author: {
-      name: "Tianqi",
+      name: "Anon",
     },
   });
 

@@ -1,5 +1,5 @@
-export const SITE_TITLE = "Best_Tianqi's Blog";
-export const SITE_DESCRIPTION = "Personal blog about web development, TypeScript, React, and more.";
+export const SITE_TITLE = "Anon's Blog";
+export const SITE_DESCRIPTION = "はじめまして、千早愛音と申します。MyGO!!!!! ギター担当。";
 export const SITE_URL = "https://besttianqi.github.io/AnonBlog";
 export const BASE_PATH = "/AnonBlog";
 export const POSTS_PER_PAGE = 3;

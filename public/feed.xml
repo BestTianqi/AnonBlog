@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <rss version="2.0">
     <channel>
-        <title>Best_Tianqi's Blog</title>
+        <title>Anon's Blog</title>
         <link>https://besttianqi.github.io/AnonBlog</link>
-        <description>Personal blog about web development, TypeScript, React, and more.</description>
-        <lastBuildDate>Sat, 18 Jul 2026 17:46:41 GMT</lastBuildDate>
+        <description>はじめまして、千早愛音と申します。MyGO!!!!! ギター担当。</description>
+        <lastBuildDate>Sat, 18 Jul 2026 17:52:20 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <language>zh-CN</language>
