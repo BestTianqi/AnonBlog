@@ -7,4 +7,5 @@ export const GISCUS_REPO = process.env.NEXT_PUBLIC_GISCUS_REPO || "";
 export const GISCUS_REPO_ID = process.env.NEXT_PUBLIC_GISCUS_REPO_ID || "";
 export const GISCUS_CATEGORY = process.env.NEXT_PUBLIC_GISCUS_CATEGORY || "";
 export const GISCUS_CATEGORY_ID = process.env.NEXT_PUBLIC_GISCUS_CATEGORY_ID || "";
-export const MUSIC_PLAYER_ID = "2680045149";
+export const MUSIC_PLAYER_ID = "54743836";
+export const MUSIC_PLAYER_HEIGHT = 430;

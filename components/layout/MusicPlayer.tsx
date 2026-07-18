@@ -1,4 +1,4 @@
-import { MUSIC_PLAYER_ID } from "@/lib/constants";
+import { MUSIC_PLAYER_ID, MUSIC_PLAYER_HEIGHT } from "@/lib/constants";
 
 export default function MusicPlayer() {
   return (
@@ -9,10 +9,10 @@ export default function MusicPlayer() {
           frameBorder="no"
           marginWidth={0}
           marginHeight={0}
-          width={330}
-          height={86}
-          src={`//music.163.com/outchain/player?type=2&id=${MUSIC_PLAYER_ID}&auto=0&height=66`}
-          className="rounded-md"
+          width="100%"
+          height={MUSIC_PLAYER_HEIGHT}
+          src={`//music.163.com/outchain/player?type=1&id=${MUSIC_PLAYER_ID}&auto=0&height=430`}
+          className="rounded-md max-w-[500px]"
         />
       </div>
     </div>
