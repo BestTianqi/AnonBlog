@@ -1,0 +1,90 @@
+@import "tailwindcss";
+@plugin "@tailwindcss/typography";
+
+@custom-variant dark (&:where(.dark, .dark *));
+
+:root {
+  --color-background: #ffffff;
+  --color-foreground: #171717;
+}
+
+.dark {
+  --color-background: #0a0a0a;
+  --color-foreground: #ededed;
+}
+
+@theme inline {
+  --color-background: var(--color-background);
+  --color-foreground: var(--color-foreground);
+  --font-sans: var(--font-geist-sans);
+  --font-mono: var(--font-geist-mono);
+}
+
+body {
+  background: var(--color-background);
+  color: var(--color-foreground);
+  font-family: var(--font-sans), system-ui, sans-serif;
+}
+
+/* ---- rehype-pretty-code dual theme ---- */
+
+[data-theme="light"] {
+  --shiki: var(--shiki-light);
+  --shiki-bg: var(--shiki-light-bg);
+}
+
+[data-theme="dark"] {
+  --shiki: var(--shiki-dark);
+  --shiki-bg: var(--shiki-dark-bg);
+}
+
+/* inline code inside prose */
+.prose code:not(pre code) {
+  background: #f3f4f6;
+  padding: 0.15em 0.4em;
+  border-radius: 0.25rem;
+  font-size: 0.875em;
+  font-weight: 500;
+}
+
+.dark .prose code:not(pre code) {
+  background: #1e1e1e;
+}
+
+/* code blocks */
+.prose pre {
+  border-radius: 0.5rem;
+  overflow-x: auto;
+}
+
+.prose pre code {
+  display: grid;
+  font-size: 0.875em;
+  line-height: 1.6;
+}
+
+.prose pre code [data-line] {
+  padding: 0 1rem;
+}
+
+/* highlighted lines */
+.prose pre code .highlighted {
+  background: rgba(0, 122, 255, 0.1);
+  border-left: 3px solid #007aff;
+}
+
+/* heading anchor links */
+.prose h2 a,
+.prose h3 a,
+.prose h4 a {
+  text-decoration: none;
+  color: inherit;
+}
+
+.prose h2 a:hover::after,
+.prose h3 a:hover::after,
+.prose h4 a:hover::after {
+  content: " #";
+  color: #9ca3af;
+  font-weight: 400;
+}
