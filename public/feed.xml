@@ -4,15 +4,15 @@
         <title>Best_Tianqi's Blog</title>
         <link>https://besttianqi.github.io/AnonBlog</link>
         <description>Personal blog about web development, TypeScript, React, and more.</description>
-        <lastBuildDate>Sat, 18 Jul 2026 17:45:02 GMT</lastBuildDate>
+        <lastBuildDate>Sat, 18 Jul 2026 17:45:43 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <language>zh-CN</language>
         <copyright>All rights reserved 2026</copyright>
         <item>
             <title><![CDATA[Hello Happy World — 爱音的第一篇博客]]></title>
-            <link>https://besttianqi.github.io/AnonBlog/posts/Hello%20Happy%20World</link>
-            <guid isPermaLink="false">https://besttianqi.github.io/AnonBlog/posts/Hello Happy World</guid>
+            <link>https://besttianqi.github.io/AnonBlog/posts/hello-happy-world</link>
+            <guid isPermaLink="false">https://besttianqi.github.io/AnonBlog/posts/hello-happy-world</guid>
             <pubDate>Wed, 15 Jul 2026 00:00:00 GMT</pubDate>
             <description><![CDATA[欢迎来到我的个人博客！]]></description>
             <category>general</category>
