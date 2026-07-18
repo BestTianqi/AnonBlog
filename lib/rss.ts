@@ -1,3 +1,5 @@
+import fs from "node:fs";
+import path from "node:path";
 import { Feed } from "feed";
 import { SITE_TITLE, SITE_DESCRIPTION, SITE_URL } from "./constants";
 import { getAllPosts } from "./posts";
@@ -30,4 +32,12 @@ export function generateRssFeed(): string {
   }
 
   return feed.rss2();
+}
+
+export function writeRssFeed(): void {
+  const rss = generateRssFeed();
+  const outputPath = path.join(process.cwd(), "public", "feed.xml");
+  fs.mkdirSync(path.dirname(outputPath), { recursive: true });
+  fs.writeFileSync(outputPath, rss, "utf8");
+  console.log("RSS feed written to public/feed.xml");
 }

@@ -4,8 +4,6 @@ import { getAllPosts } from "./posts";
 import { getPostBySlug } from "./posts";
 import type { SearchIndexEntry } from "@/types";
 
-const outputPath = path.join(process.cwd(), "public", "search-index.json");
-
 function stripHtml(html: string): string {
   return html.replace(/<[^>]*>/g, " ").replace(/\s+/g, " ").trim();
 }
@@ -26,19 +24,8 @@ export async function buildSearchIndex(): Promise<void> {
     });
   }
 
+  const outputPath = path.join(process.cwd(), "public", "search-index.json");
   fs.mkdirSync(path.dirname(outputPath), { recursive: true });
   fs.writeFileSync(outputPath, JSON.stringify(entries), "utf8");
-}
-
-// Run directly: tsx lib/search.ts
-if (process.argv[1]?.endsWith("search.ts")) {
-  buildSearchIndex()
-    .then(() => {
-      console.log("Search index built successfully.");
-      process.exit(0);
-    })
-    .catch((err) => {
-      console.error("Failed to build search index:", err);
-      process.exit(1);
-    });
+  console.log(`Search index: ${entries.length} entries`);
 }

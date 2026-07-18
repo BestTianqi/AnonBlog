@@ -3,14 +3,14 @@ import Link from "next/link";
 interface PaginationProps {
   page: number;
   totalPages: number;
-  basePath?: string;
 }
 
-export default function Pagination({
-  page,
-  totalPages,
-  basePath = "",
-}: PaginationProps) {
+function pageHref(p: number): string {
+  if (p === 1) return "/";
+  return `/page/${p}`;
+}
+
+export default function Pagination({ page, totalPages }: PaginationProps) {
   if (totalPages <= 1) return null;
 
   return (
@@ -20,7 +20,7 @@ export default function Pagination({
     >
       {page > 1 ? (
         <Link
-          href={`${basePath}?page=${page - 1}`}
+          href={pageHref(page - 1)}
           className="rounded-md px-3 py-1.5 text-sm text-neutral-600 dark:text-neutral-400 no-underline hover:bg-neutral-100 dark:hover:bg-neutral-800 transition-colors"
         >
           Previous
@@ -42,7 +42,7 @@ export default function Pagination({
         ) : (
           <Link
             key={p}
-            href={`${basePath}?page=${p}`}
+            href={pageHref(p)}
             className="rounded-md px-3 py-1.5 text-sm text-neutral-600 dark:text-neutral-400 no-underline hover:bg-neutral-100 dark:hover:bg-neutral-800 transition-colors"
           >
             {p}
@@ -52,7 +52,7 @@ export default function Pagination({
 
       {page < totalPages ? (
         <Link
-          href={`${basePath}?page=${page + 1}`}
+          href={pageHref(page + 1)}
           className="rounded-md px-3 py-1.5 text-sm text-neutral-600 dark:text-neutral-400 no-underline hover:bg-neutral-100 dark:hover:bg-neutral-800 transition-colors"
         >
           Next

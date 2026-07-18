@@ -3,9 +3,9 @@
   "version": "0.1.0",
   "private": true,
   "scripts": {
-    "dev": "npm run build:index && next dev",
-    "build": "npm run build:index && next build",
-    "build:index": "tsx lib/search.ts",
+    "dev": "npm run prebuild && next dev",
+    "build": "npm run prebuild && next build",
+    "prebuild": "tsx scripts/prebuild.ts",
     "start": "next start",
     "lint": "eslint"
   },
