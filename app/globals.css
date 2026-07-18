@@ -32,7 +32,7 @@ body::before {
   position: fixed;
   inset: 0;
   z-index: -2;
-  background-image: url('/images/bg.jpg');
+  background-image: url('/AnonBlog/images/bg.jpg');
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
