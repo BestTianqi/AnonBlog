@@ -3,6 +3,7 @@ import { Geist, Geist_Mono } from "next/font/google";
 import ThemeProvider from "@/providers/ThemeProvider";
 import SiteHeader from "@/components/layout/SiteHeader";
 import SiteFooter from "@/components/layout/SiteFooter";
+import MusicPlayer from "@/components/layout/MusicPlayer";
 import { SITE_TITLE, SITE_DESCRIPTION, SITE_URL } from "@/lib/constants";
 import "./globals.css";
 
@@ -64,6 +65,7 @@ export default function RootLayout({
         <ThemeProvider>
           <SiteHeader />
           <main className="flex-1 py-8 sm:py-12">{children}</main>
+          <MusicPlayer />
           <SiteFooter />
         </ThemeProvider>
       </body>
