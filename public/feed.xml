@@ -4,7 +4,7 @@
         <title>Best_Tianqi's Blog</title>
         <link>https://besttianqi.github.io/AnonBlog</link>
         <description>Personal blog about web development, TypeScript, React, and more.</description>
-        <lastBuildDate>Sat, 18 Jul 2026 17:45:43 GMT</lastBuildDate>
+        <lastBuildDate>Sat, 18 Jul 2026 17:46:41 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <language>zh-CN</language>
@@ -20,8 +20,8 @@
         </item>
         <item>
             <title><![CDATA[关于我 — 千早愛音]]></title>
-            <link>https://besttianqi.github.io/AnonBlog/posts/%E8%87%AA%E6%88%91%E4%BB%8B%E7%BB%8D</link>
-            <guid isPermaLink="false">https://besttianqi.github.io/AnonBlog/posts/自我介绍</guid>
+            <link>https://besttianqi.github.io/AnonBlog/posts/about-me</link>
+            <guid isPermaLink="false">https://besttianqi.github.io/AnonBlog/posts/about-me</guid>
             <pubDate>Tue, 14 Jul 2026 00:00:00 GMT</pubDate>
             <description><![CDATA[はじめまして、千早愛音と申します。这里是关于我的一切。]]></description>
             <category>introduction</category>
