@@ -2,6 +2,7 @@
 
 import { useState, useEffect, useMemo } from "react";
 import Fuse from "fuse.js";
+import { BASE_PATH } from "@/lib/constants";
 import type { SearchIndexEntry } from "@/types";
 
 export function useSearch() {
@@ -11,7 +12,7 @@ export function useSearch() {
   const [loading, setLoading] = useState(true);
 
   useEffect(() => {
-    fetch("/search-index.json")
+    fetch(`${BASE_PATH}/search-index.json`)
       .then((res) => res.json())
       .then((data: SearchIndexEntry[]) => {
         setIndex(data);

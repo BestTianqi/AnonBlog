@@ -1,6 +1,7 @@
 export const SITE_TITLE = "Best_Tianqi's Blog";
 export const SITE_DESCRIPTION = "Personal blog about web development, TypeScript, React, and more.";
-export const SITE_URL = process.env.NEXT_PUBLIC_SITE_URL || "https://blog.example.com";
+export const SITE_URL = "https://besttianqi.github.io/AnonBlog";
+export const BASE_PATH = "/AnonBlog";
 export const POSTS_PER_PAGE = 3;
 export const GISCUS_REPO = process.env.NEXT_PUBLIC_GISCUS_REPO || "";
 export const GISCUS_REPO_ID = process.env.NEXT_PUBLIC_GISCUS_REPO_ID || "";

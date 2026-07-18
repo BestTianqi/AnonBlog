@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://blog.example.com/sitemap.xml
+Sitemap: https://besttianqi.github.io/AnonBlog/sitemap.xml
