@@ -139,8 +139,6 @@ export default function MusicPlayer() {
                   alt="cover"
                   className="size-full object-cover"
                 />
-                {/* Center hole */}
-                <div className="absolute inset-0 m-auto size-1.5 rounded-full bg-neutral-900 dark:bg-neutral-950 ring-1 ring-neutral-500/50" />
               </div>
             </div>
           </div>
