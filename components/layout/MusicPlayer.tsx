@@ -125,11 +125,24 @@ export default function MusicPlayer() {
       <div className="rounded-lg border border-neutral-200 dark:border-neutral-800 bg-white/70 dark:bg-neutral-950/70 backdrop-blur-sm p-3">
         {/* Main bar */}
         <div className="flex items-center gap-3">
-          {/* Album art placeholder */}
-          <div className="hidden sm:flex size-10 shrink-0 items-center justify-center rounded bg-neutral-200 dark:bg-neutral-800 text-neutral-400">
-            <svg className="size-5" fill="currentColor" viewBox="0 0 24 24">
-              <path d="M12 3v10.55c-.59-.34-1.27-.55-2-.55-2.21 0-4 1.79-4 4s1.79 4 4 4 4-1.79 4-4V7h4V3h-6z" />
-            </svg>
+          {/* Spinning vinyl record */}
+          <div className="hidden sm:flex size-12 shrink-0 relative">
+            <div className="size-full rounded-full bg-neutral-800 dark:bg-neutral-700 flex items-center justify-center shadow-lg animate-spin" style={{ animationDuration: "3s", animationPlayState: isPlaying ? "running" : "paused" }}>
+              {/* Grooves */}
+              <div className="absolute inset-1 rounded-full border border-neutral-700/50 dark:border-neutral-600/50" />
+              <div className="absolute inset-2.5 rounded-full border border-neutral-700/50 dark:border-neutral-600/50" />
+              <div className="absolute inset-4 rounded-full border border-neutral-700/50 dark:border-neutral-600/50" />
+              {/* Center image */}
+              <div className="relative size-7 rounded-full overflow-hidden ring-2 ring-neutral-600 dark:ring-neutral-500">
+                <img
+                  src="/AnonBlog/images/anon.png"
+                  alt="cover"
+                  className="size-full object-cover"
+                />
+                {/* Center hole */}
+                <div className="absolute inset-0 m-auto size-1.5 rounded-full bg-neutral-900 dark:bg-neutral-950 ring-1 ring-neutral-500/50" />
+              </div>
+            </div>
           </div>
 
           {/* Song info */}
