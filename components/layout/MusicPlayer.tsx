@@ -127,7 +127,7 @@ export default function MusicPlayer() {
         <div className="flex items-center gap-3">
           {/* Spinning vinyl record */}
           <div className="hidden sm:flex size-12 shrink-0 relative">
-            <div className="size-full rounded-full bg-neutral-800 dark:bg-neutral-700 flex items-center justify-center shadow-lg animate-spin" style={{ animationDuration: "3s", animationPlayState: isPlaying ? "running" : "paused" }}>
+            <div className="size-full rounded-full bg-neutral-800 dark:bg-neutral-700 flex items-center justify-center shadow-lg animate-spin" style={{ animationDuration: "10s", animationPlayState: isPlaying ? "running" : "paused" }}>
               {/* Grooves */}
               <div className="absolute inset-1 rounded-full border border-neutral-700/50 dark:border-neutral-600/50" />
               <div className="absolute inset-2.5 rounded-full border border-neutral-700/50 dark:border-neutral-600/50" />
