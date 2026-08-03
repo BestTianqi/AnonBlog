@@ -4,11 +4,56 @@
         <title>Anon's Blog</title>
         <link>https://besttianqi.github.io/AnonBlog</link>
         <description>はじめまして、千早愛音と申します。MyGO!!!!! ギター担当。</description>
-        <lastBuildDate>Sat, 18 Jul 2026 17:52:20 GMT</lastBuildDate>
+        <lastBuildDate>Mon, 03 Aug 2026 15:12:08 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <language>zh-CN</language>
         <copyright>All rights reserved 2026</copyright>
+        <item>
+            <title><![CDATA[关于 MyGO!!!!! — 我们的乐队]]></title>
+            <link>https://besttianqi.github.io/AnonBlog/posts/about-mygo</link>
+            <guid isPermaLink="false">https://besttianqi.github.io/AnonBlog/posts/about-mygo</guid>
+            <pubDate>Thu, 23 Jul 2026 00:00:00 GMT</pubDate>
+            <description><![CDATA[五人的 MyGO!!!!!、迷失却前进的乐队，这是我们所有人的故事。]]></description>
+            <category>band</category>
+            <category>life</category>
+        </item>
+        <item>
+            <title><![CDATA[乐队成员介绍 — 要楽奈]]></title>
+            <link>https://besttianqi.github.io/AnonBlog/posts/rana-introduction</link>
+            <guid isPermaLink="false">https://besttianqi.github.io/AnonBlog/posts/rana-introduction</guid>
+            <pubDate>Wed, 22 Jul 2026 00:00:00 GMT</pubDate>
+            <description><![CDATA[MyGO!!!!! 的吉他手、像猫一样的「Rāna」，今天介绍我们最自由也最天才的伙伴。]]></description>
+            <category>introduction</category>
+            <category>band</category>
+        </item>
+        <item>
+            <title><![CDATA[乐队成员介绍 — 椎名立希]]></title>
+            <link>https://besttianqi.github.io/AnonBlog/posts/taki-introduction</link>
+            <guid isPermaLink="false">https://besttianqi.github.io/AnonBlog/posts/taki-introduction</guid>
+            <pubDate>Tue, 21 Jul 2026 00:00:00 GMT</pubDate>
+            <description><![CDATA[MyGO!!!!! 的鼓手、嘴硬心软的「りっきー」，今天介绍我们最凶也最可靠的队友。]]></description>
+            <category>introduction</category>
+            <category>band</category>
+        </item>
+        <item>
+            <title><![CDATA[乐队成员介绍 — 高松燈]]></title>
+            <link>https://besttianqi.github.io/AnonBlog/posts/tomori-introduction</link>
+            <guid isPermaLink="false">https://besttianqi.github.io/AnonBlog/posts/tomori-introduction</guid>
+            <pubDate>Mon, 20 Jul 2026 00:00:00 GMT</pubDate>
+            <description><![CDATA[MyGO!!!!! 的主唱、用歌声传达心声的「ともりん」，今天聊聊我们最重要的主唱。]]></description>
+            <category>introduction</category>
+            <category>band</category>
+        </item>
+        <item>
+            <title><![CDATA[乐队成员介绍 — 長崎素世]]></title>
+            <link>https://besttianqi.github.io/AnonBlog/posts/soyo-introduction</link>
+            <guid isPermaLink="false">https://besttianqi.github.io/AnonBlog/posts/soyo-introduction</guid>
+            <pubDate>Sun, 19 Jul 2026 00:00:00 GMT</pubDate>
+            <description><![CDATA[MyGO!!!!! 的贝斯手、优雅而深情的「そよりん」，今天为大家介绍我最特别的队友。]]></description>
+            <category>introduction</category>
+            <category>band</category>
+        </item>
         <item>
             <title><![CDATA[Hello Happy World — 爱音的第一篇博客]]></title>
             <link>https://besttianqi.github.io/AnonBlog/posts/hello-happy-world</link>

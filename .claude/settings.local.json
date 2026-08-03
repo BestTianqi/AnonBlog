@@ -34,7 +34,27 @@
       "Bash(python3 -c \"import sys,json; d=json.load\\(sys.stdin\\); r=d['workflow_runs'][0]; print\\(f\\\\\"status={r['status']}, conclusion={r['conclusion']}\\\\\"\\)\")",
       "Bash(curl -s https://api.github.com/repos/BestTianqi/AnonBlog/actions/runs/29653041032)",
       "Bash(curl -s -o /dev/null -w \"HTTP %{http_code}\" https://besttianqi.github.io/AnonBlog/)",
-      "Bash(curl -s https://api.github.com/repos/BestTianqi/AnonBlog/pages)"
+      "Bash(curl -s https://api.github.com/repos/BestTianqi/AnonBlog/pages)",
+      "Bash(curl -s https://api.github.com/repos/BestTianqi/AnonBlog/actions/runs/29654770787)",
+      "Bash(python3 -c \"import sys,json; d=json.load\\(sys.stdin\\); print\\(f'status: {d[\\\\\"status\\\\\"]}, conclusion: {d.get\\(\\\\\"conclusion\\\\\",\\\\\"N/A\\\\\"\\)}, url: {d[\\\\\"html_url\\\\\"]}'\\)\")",
+      "Bash(python -c \"import sys,json; d=json.load\\(sys.stdin\\); print\\(f'status: {d[\\\\\"status\\\\\"]}, conclusion: {d.get\\(\\\\\"conclusion\\\\\",\\\\\"N/A\\\\\"\\)}'\\)\")",
+      "Bash(curl -s -o /dev/null -w \"%{http_code}\" \"https://besttianqi.github.io/AnonBlog/posts/about-me\")",
+      "Bash(curl -sI \"https://besttianqi.github.io/AnonBlog/posts/about-me\")",
+      "Bash(curl -sI \"https://besttianqi.github.io/AnonBlog/posts/about-me.html\")",
+      "Bash(python -c \"import sys,json; d=json.load\\(sys.stdin\\)['workflow_runs'][0]; print\\(f'status: {d[\\\\\"status\\\\\"]}, conclusion: {d.get\\(\\\\\"conclusion\\\\\",\\\\\"N/A\\\\\"\\)}, url: {d[\\\\\"html_url\\\\\"]}'\\)\")",
+      "WebFetch(domain:music.163.com)",
+      "Bash(curl -s -H \"Referer: https://music.163.com\" \"https://music.163.com/api/search/get?type=1000&s=MyGO&limit=5\")",
+      "Bash(python -c \"import sys,json; d=json.load\\(sys.stdin\\); [print\\(f'id={p[\\\\\"id\\\\\"]}, name={p[\\\\\"name\\\\\"]}, tracks={p.get\\(\\\\\"trackCount\\\\\",\\\\\"?\\\\\"\\)}'\\) for p in d.get\\('result',{}\\).get\\('playlists',[]\\)]\")",
+      "Bash(curl -s -H \"Referer: https://music.163.com\" \"https://music.163.com/api/search/get?type=100&s=MyGO!!!!!&limit=5\")",
+      "Bash(python -c \"import sys,json; d=json.load\\(sys.stdin\\); artists=d.get\\('result',{}\\).get\\('artists',[]\\); [print\\(f'id={a[\\\\\"id\\\\\"]}, name={a[\\\\\"name\\\\\"]}, albumSize={a.get\\(\\\\\"albumSize\\\\\",\\\\\"?\\\\\"\\)}'\\) for a in artists]\")",
+      "Bash(curl -s -H \"Referer: https://music.163.com\" \"https://music.163.com/api/artist/top/song?id=54743836\")",
+      "Bash(python -c ' *)",
+      "Bash(curl -sI \"https://music.163.com/outchain/player?type=1&id=54743836&auto=0&height=430\" -H \"Referer: https://besttianqi.github.io/\")",
+      "Bash(pip --version)",
+      "Bash(pip install *)",
+      "Bash(python -X utf8 -c ' *)",
+      "Bash(winget install *)",
+      "Bash(python -c \"from PIL import Image; im=Image.open\\('d:/workspace/blog/public/images/anon.png'\\); print\\(f'size={im.size}, mode={im.mode}'\\)\")"
     ],
     "additionalDirectories": [
       "d:\\workspace\\blog\\app\\page\\[num"
