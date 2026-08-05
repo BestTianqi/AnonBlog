@@ -4,11 +4,20 @@
         <title>Anon's Blog</title>
         <link>https://besttianqi.github.io/AnonBlog</link>
         <description>はじめまして、千早愛音と申します。MyGO!!!!! ギター担当。</description>
-        <lastBuildDate>Mon, 03 Aug 2026 15:12:08 GMT</lastBuildDate>
+        <lastBuildDate>Wed, 05 Aug 2026 17:00:35 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <language>zh-CN</language>
         <copyright>All rights reserved 2026</copyright>
+        <item>
+            <title><![CDATA[关于 Ave Mujica — 假面下的乐队]]></title>
+            <link>https://besttianqi.github.io/AnonBlog/posts/about-avemujica</link>
+            <guid isPermaLink="false">https://besttianqi.github.io/AnonBlog/posts/about-avemujica</guid>
+            <pubDate>Fri, 24 Jul 2026 00:00:00 GMT</pubDate>
+            <description><![CDATA[和 MyGO!!!!! 有着千丝万缕联系的另一个乐队，关于 Ave Mujica 的一切。]]></description>
+            <category>band</category>
+            <category>life</category>
+        </item>
         <item>
             <title><![CDATA[关于 MyGO!!!!! — 我们的乐队]]></title>
             <link>https://besttianqi.github.io/AnonBlog/posts/about-mygo</link>
