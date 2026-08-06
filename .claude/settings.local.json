@@ -54,7 +54,8 @@
       "Bash(pip install *)",
       "Bash(python -X utf8 -c ' *)",
       "Bash(winget install *)",
-      "Bash(python -c \"from PIL import Image; im=Image.open\\('d:/workspace/blog/public/images/anon.png'\\); print\\(f'size={im.size}, mode={im.mode}'\\)\")"
+      "Bash(python -c \"from PIL import Image; im=Image.open\\('d:/workspace/blog/public/images/anon.png'\\); print\\(f'size={im.size}, mode={im.mode}'\\)\")",
+      "Bash(node -e \"const fs=require\\('fs'\\);const posts=fs.readdirSync\\('content/posts'\\).filter\\(f=>f.endsWith\\('.md'\\)\\);posts.forEach\\(f=>{const c=fs.readFileSync\\('content/posts/'+f,'utf8'\\);const m=c.match\\(/^---\\\\n\\([\\\\s\\\\S]*?\\)\\\\n---/\\);if\\(m\\){const fm=m[1];const draft=fm.includes\\('draft: true'\\);console.log\\(f,'- draft:',draft\\)}}\\)\")"
     ],
     "additionalDirectories": [
       "d:\\workspace\\blog\\app\\page\\[num"
