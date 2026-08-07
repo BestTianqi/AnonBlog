@@ -1,6 +1,6 @@
 ---
 title: "乐队成员介绍 — 高松燈"
-date: "2026-07-20"
+date: "2026-07-31"
 description: "MyGO!!!!! 的主唱、用歌声传达心声的「ともりん」，今天聊聊我们最重要的主唱。"
 tags:
   - introduction

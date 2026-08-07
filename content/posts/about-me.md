@@ -1,6 +1,6 @@
 ---
 title: "关于我 — 千早愛音"
-date: "2026-07-14"
+date: "2026-07-19"
 description: "はじめまして、千早愛音と申します。这里是关于我的一切。"
 tags:
   - introduction

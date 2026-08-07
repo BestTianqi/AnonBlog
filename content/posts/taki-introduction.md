@@ -1,6 +1,6 @@
 ---
 title: "乐队成员介绍 — 椎名立希"
-date: "2026-07-21"
+date: "2026-07-31"
 description: "MyGO!!!!! 的鼓手、嘴硬心软的「りっきー」，今天介绍我们最凶也最可靠的队友。"
 tags:
   - introduction

@@ -1,6 +1,6 @@
 ---
 title: "乐队成员介绍 — 要楽奈"
-date: "2026-07-22"
+date: "2026-07-31"
 description: "MyGO!!!!! 的吉他手、像猫一样的「Rāna」，今天介绍我们最自由也最天才的伙伴。"
 tags:
   - introduction

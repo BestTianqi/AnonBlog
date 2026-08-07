@@ -1,6 +1,6 @@
 ---
 title: "关于 Ave Mujica — 假面下的乐队"
-date: "2026-07-24"
+date: "2026-08-06"
 description: "和 MyGO!!!!! 有着千丝万缕联系的另一个乐队，关于 Ave Mujica 的一切。"
 tags:
   - band

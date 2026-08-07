@@ -1,6 +1,6 @@
 ---
 title: "乐队成员介绍 — 長崎素世"
-date: "2026-07-19"
+date: "2026-07-20"
 description: "MyGO!!!!! 的贝斯手、优雅而深情的「そよりん」，今天为大家介绍我最特别的队友。"
 tags:
   - introduction
