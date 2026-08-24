@@ -11,7 +11,7 @@ cover: "/AnonBlog/images/anon-bilibili-moe-queen/coronation-cover.png"
 draft: false
 ---
 
-![千早愛音 B 萌萌王登基封面](/AnonBlog/images/anon-bilibili-moe-queen/coronation-cover.png)
+![千早愛音](/AnonBlog/images/anon.png)
 
 ## 号外：本萌王登基啦！
 
