@@ -4,32 +4,52 @@
         <title>Anon's Blog</title>
         <link>https://besttianqi.github.io/AnonBlog</link>
         <description>はじめまして、千早愛音と申します。MyGO!!!!! ギター担当。</description>
-        <lastBuildDate>Thu, 06 Aug 2026 17:52:01 GMT</lastBuildDate>
+        <lastBuildDate>Mon, 24 Aug 2026 09:41:40 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <language>zh-CN</language>
         <copyright>All rights reserved 2026</copyright>
         <item>
-            <title><![CDATA[薇欧拉]]></title>
-            <link>https://besttianqi.github.io/AnonBlog/posts/untitled</link>
-            <guid isPermaLink="false">https://besttianqi.github.io/AnonBlog/posts/untitled</guid>
-            <pubDate>Sat, 25 Jul 2026 00:00:00 GMT</pubDate>
+            <title><![CDATA[本萌王正式登基！千早愛音荣获 B 萌萌王]]></title>
+            <link>https://besttianqi.github.io/AnonBlog/posts/anon-bilibili-moe-queen</link>
+            <guid isPermaLink="false">https://besttianqi.github.io/AnonBlog/posts/anon-bilibili-moe-queen</guid>
+            <pubDate>Mon, 24 Aug 2026 00:00:00 GMT</pubDate>
+            <description><![CDATA[号外！号外！千早愛音——也就是我——正式成为 B 萌萌王！请各位迷子立即列队欢迎本王登基！]]></description>
+            <category>celebration</category>
+            <category>B萌</category>
+            <category>Anon</category>
+            <category>MyGO!!!!!</category>
+        </item>
+        <item>
+            <title><![CDATA[祝 永雏塔菲 生日快乐！]]></title>
+            <link>https://besttianqi.github.io/AnonBlog/posts/taffy-birthday</link>
+            <guid isPermaLink="false">https://besttianqi.github.io/AnonBlog/posts/taffy-birthday</guid>
+            <pubDate>Wed, 12 Aug 2026 00:00:00 GMT</pubDate>
+            <description><![CDATA[お誕生日おめでとう！给世界第一可爱的塔菲献上祝福～]]></description>
             <category>life</category>
+            <category>birthday</category>
         </item>
         <item>
             <title><![CDATA[关于 Ave Mujica — 假面下的乐队]]></title>
             <link>https://besttianqi.github.io/AnonBlog/posts/about-avemujica</link>
             <guid isPermaLink="false">https://besttianqi.github.io/AnonBlog/posts/about-avemujica</guid>
-            <pubDate>Fri, 24 Jul 2026 00:00:00 GMT</pubDate>
+            <pubDate>Thu, 06 Aug 2026 00:00:00 GMT</pubDate>
             <description><![CDATA[和 MyGO!!!!! 有着千丝万缕联系的另一个乐队，关于 Ave Mujica 的一切。]]></description>
             <category>band</category>
+            <category>life</category>
+        </item>
+        <item>
+            <title><![CDATA[薇欧拉]]></title>
+            <link>https://besttianqi.github.io/AnonBlog/posts/untitled</link>
+            <guid isPermaLink="false">https://besttianqi.github.io/AnonBlog/posts/untitled</guid>
+            <pubDate>Thu, 06 Aug 2026 00:00:00 GMT</pubDate>
             <category>life</category>
         </item>
         <item>
             <title><![CDATA[关于 MyGO!!!!! — 我们的乐队]]></title>
             <link>https://besttianqi.github.io/AnonBlog/posts/about-mygo</link>
             <guid isPermaLink="false">https://besttianqi.github.io/AnonBlog/posts/about-mygo</guid>
-            <pubDate>Thu, 23 Jul 2026 00:00:00 GMT</pubDate>
+            <pubDate>Mon, 03 Aug 2026 00:00:00 GMT</pubDate>
             <description><![CDATA[五人的 MyGO!!!!!、迷失却前进的乐队，这是我们所有人的故事。]]></description>
             <category>band</category>
             <category>life</category>
@@ -38,7 +58,7 @@
             <title><![CDATA[乐队成员介绍 — 要楽奈]]></title>
             <link>https://besttianqi.github.io/AnonBlog/posts/rana-introduction</link>
             <guid isPermaLink="false">https://besttianqi.github.io/AnonBlog/posts/rana-introduction</guid>
-            <pubDate>Wed, 22 Jul 2026 00:00:00 GMT</pubDate>
+            <pubDate>Fri, 31 Jul 2026 00:00:00 GMT</pubDate>
             <description><![CDATA[MyGO!!!!! 的吉他手、像猫一样的「Rāna」，今天介绍我们最自由也最天才的伙伴。]]></description>
             <category>introduction</category>
             <category>band</category>
@@ -47,7 +67,7 @@
             <title><![CDATA[乐队成员介绍 — 椎名立希]]></title>
             <link>https://besttianqi.github.io/AnonBlog/posts/taki-introduction</link>
             <guid isPermaLink="false">https://besttianqi.github.io/AnonBlog/posts/taki-introduction</guid>
-            <pubDate>Tue, 21 Jul 2026 00:00:00 GMT</pubDate>
+            <pubDate>Fri, 31 Jul 2026 00:00:00 GMT</pubDate>
             <description><![CDATA[MyGO!!!!! 的鼓手、嘴硬心软的「りっきー」，今天介绍我们最凶也最可靠的队友。]]></description>
             <category>introduction</category>
             <category>band</category>
@@ -56,7 +76,7 @@
             <title><![CDATA[乐队成员介绍 — 高松燈]]></title>
             <link>https://besttianqi.github.io/AnonBlog/posts/tomori-introduction</link>
             <guid isPermaLink="false">https://besttianqi.github.io/AnonBlog/posts/tomori-introduction</guid>
-            <pubDate>Mon, 20 Jul 2026 00:00:00 GMT</pubDate>
+            <pubDate>Fri, 31 Jul 2026 00:00:00 GMT</pubDate>
             <description><![CDATA[MyGO!!!!! 的主唱、用歌声传达心声的「ともりん」，今天聊聊我们最重要的主唱。]]></description>
             <category>introduction</category>
             <category>band</category>
@@ -65,27 +85,27 @@
             <title><![CDATA[乐队成员介绍 — 長崎素世]]></title>
             <link>https://besttianqi.github.io/AnonBlog/posts/soyo-introduction</link>
             <guid isPermaLink="false">https://besttianqi.github.io/AnonBlog/posts/soyo-introduction</guid>
-            <pubDate>Sun, 19 Jul 2026 00:00:00 GMT</pubDate>
+            <pubDate>Mon, 20 Jul 2026 00:00:00 GMT</pubDate>
             <description><![CDATA[MyGO!!!!! 的贝斯手、优雅而深情的「そよりん」，今天为大家介绍我最特别的队友。]]></description>
             <category>introduction</category>
             <category>band</category>
         </item>
         <item>
-            <title><![CDATA[Hello Happy World — 爱音的第一篇博客]]></title>
-            <link>https://besttianqi.github.io/AnonBlog/posts/hello-happy-world</link>
-            <guid isPermaLink="false">https://besttianqi.github.io/AnonBlog/posts/hello-happy-world</guid>
-            <pubDate>Wed, 15 Jul 2026 00:00:00 GMT</pubDate>
-            <description><![CDATA[欢迎来到我的个人博客！]]></description>
-            <category>general</category>
-            <category>life</category>
-        </item>
-        <item>
             <title><![CDATA[关于我 — 千早愛音]]></title>
             <link>https://besttianqi.github.io/AnonBlog/posts/about-me</link>
             <guid isPermaLink="false">https://besttianqi.github.io/AnonBlog/posts/about-me</guid>
-            <pubDate>Tue, 14 Jul 2026 00:00:00 GMT</pubDate>
+            <pubDate>Sun, 19 Jul 2026 00:00:00 GMT</pubDate>
             <description><![CDATA[はじめまして、千早愛音と申します。这里是关于我的一切。]]></description>
             <category>introduction</category>
+            <category>life</category>
+        </item>
+        <item>
+            <title><![CDATA[Hello Happy World — 爱音的第一篇博客]]></title>
+            <link>https://besttianqi.github.io/AnonBlog/posts/hello-happy-world</link>
+            <guid isPermaLink="false">https://besttianqi.github.io/AnonBlog/posts/hello-happy-world</guid>
+            <pubDate>Sun, 19 Jul 2026 00:00:00 GMT</pubDate>
+            <description><![CDATA[欢迎来到我的个人博客！]]></description>
+            <category>general</category>
             <category>life</category>
         </item>
     </channel>
